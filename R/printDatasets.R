@@ -1,8 +1,8 @@
-#' List all datasets
-#' @name datasets
+#' Print datasets in the console
+#' @name printDatasets
 #' @export
 
-datasets <- function(drop.defaults=FALSE) {
+printDatasets <- function(drop.defaults=FALSE) {
 
   # get dataset info
   package <- getDatasetInfo()
@@ -16,5 +16,5 @@ datasets <- function(drop.defaults=FALSE) {
   }
 
   # return result
-  data(package = package)
+  return(data(package = package)$result)
 }

@@ -1,8 +1,8 @@
-#' List all datasets
-#' @name datasets
+#' List datasets in a spreadsheet
+#' @name browseDatasets
 #' @export
 
-datasets <- function(drop.defaults=FALSE) {
+listDatasets <- function(drop.defaults=FALSE) {
 
   # get dataset info
   package <- getDatasetInfo()
@@ -15,6 +15,6 @@ datasets <- function(drop.defaults=FALSE) {
     package <- setdiff(package, "datasets")
   }
 
-  # return result
-  data(package = package)
+  # view result
+  View(data(package = package)$result)
 }
