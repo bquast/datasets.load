@@ -1,9 +1,9 @@
-Package: view.datasets
-Title: Tools for selecting datasets in R
+Package: browseDatasets
+Title: Tools for viewing datasets in R
 Version: 0.0.0.9000
 Authors@R: person("Bastiaan", "quast", email = "bquast@gmail.com", role = c("aut", "cre"))
-Description: This package provides a number of tools for selecting datasets in R
-    from package even if the package is
+Description: This package provides a number of tools for viewing and selecting datasets in R
+    from package even if the package is unavailable.
 Depends:
     R (>= 2.0.0)
 License: GPL-3
