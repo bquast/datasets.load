@@ -1,2 +1,2 @@
 # view.datasets
-Tools for view datasets in R
+Tools for selecting datasets in R
