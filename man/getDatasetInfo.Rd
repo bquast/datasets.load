@@ -4,7 +4,8 @@
 \alias{getDatasetInfo}
 \title{Get information on installed datasets.}
 \usage{
-getDatasetInfo(package = NULL, lib.loc = NULL, all = TRUE)
+getDatasetInfo(package = NULL, lib.loc = NULL, all = TRUE,
+  drop.defaults = FALSE)
 }
 \description{
 Get information on installed datasets.

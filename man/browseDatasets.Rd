@@ -5,9 +5,11 @@
 \alias{listDatasets}
 \title{List datasets in an HTML Browser}
 \usage{
-browseDatasets(drop.defaults = FALSE)
+browseDatasets(package = NULL, lib.loc = NULL, all = TRUE,
+  drop.defaults = FALSE)
 
-listDatasets(drop.defaults = FALSE)
+listDatasets(package = NULL, lib.loc = NULL, all = TRUE,
+  drop.defaults = FALSE)
 }
 \description{
 List datasets in an HTML Browser

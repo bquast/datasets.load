@@ -4,7 +4,8 @@
 \alias{printDatasets}
 \title{Print datasets in the console}
 \usage{
-printDatasets(drop.defaults = FALSE)
+printDatasets(package = NULL, lib.loc = NULL, all = TRUE,
+  drop.defaults = FALSE)
 }
 \description{
 Print datasets in the console

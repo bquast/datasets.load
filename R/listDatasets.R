@@ -2,19 +2,11 @@
 #' @name browseDatasets
 #' @export
 
-listDatasets <- function(drop.defaults=FALSE) {
+listDatasets <- function(package = NULL, lib.loc = NULL, all=TRUE, drop.defaults=FALSE) {
 
   # get dataset info
-  package <- getDatasetInfo()
-
-  # drop these to avoid warnings
-  package <- setdiff(package, c("base", "stats"))
-
-  if (drop.defaults == TRUE) {
-    # remove data available by default
-    package <- setdiff(package, "datasets")
-  }
+  package <- getDatasetInfo(package, lib.loc, all, drop.defaults)
 
   # view result
-  View(data(package = package)$result)
+  View(package, 'datasets')
 }

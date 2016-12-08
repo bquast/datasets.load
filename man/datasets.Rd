@@ -4,7 +4,8 @@
 \alias{datasets}
 \title{List all datasets}
 \usage{
-datasets(drop.defaults = FALSE)
+datasets(package = NULL, lib.loc = NULL, all = TRUE,
+  drop.defaults = FALSE)
 }
 \description{
 List all datasets

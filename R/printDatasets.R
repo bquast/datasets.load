@@ -2,19 +2,9 @@
 #' @name printDatasets
 #' @export
 
-printDatasets <- function(drop.defaults=FALSE) {
+printDatasets <- function(package = NULL, lib.loc = NULL, all=TRUE, drop.defaults=FALSE) {
 
-  # get dataset info
-  package <- getDatasetInfo()
+  # return dataset info
+  getDatasetInfo(package, lib.loc, all, drop.defaults)
 
-  # drop these to avoid warnings
-  package <- setdiff(package, c("base", "stats"))
-
-  if (drop.defaults == TRUE) {
-    # remove data available by default
-    package <- setdiff(package, "datasets")
-  }
-
-  # return result
-  return(data(package = package)$result)
 }
