@@ -25,6 +25,8 @@ getDatasetInfo <- function(package = NULL, lib.loc = NULL, all=TRUE, drop.defaul
   # extract datasets info
   package <- as.data.frame( data(package = package)$result )
 
+  class(package) <- c('datasets', 'data.frame')
+
   return(package)
 
 }
