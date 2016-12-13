@@ -1,8 +1,8 @@
 #' List all datasets
-#' @name datasets
+#' @name alldata
 #' @export
 
-datasets <- function(package = NULL, lib.loc = NULL, all=TRUE, drop.defaults=FALSE) {
+alldata <- function(package = NULL, lib.loc = NULL, all=TRUE, drop.defaults=FALSE) {
 
   # get dataset info
   package <- getDatasetInfo(package, lib.loc, all, drop.defaults)
