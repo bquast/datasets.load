@@ -1,15 +1,15 @@
 #' Select a Dataset
 #' @name selectDataset
-#' @import shiny miniUI
+#' @import shiny miniUI DT
 #' @export
 
 selectDataset <- function() {
 
   # ui
   ui <- miniPage(
-    gadgetTitleBar('Select Dataset'),
+    gadgetTitleBar('Dataset Select'),
     miniContentPanel(
-      dataTableOutput('tbl')
+      DT::dataTableOutput('tbl')
     )
   )
 
@@ -18,8 +18,8 @@ selectDataset <- function() {
 
     pkgs <- datasets()
 
-    output$tbl = renderDataTable(
-      pkgs, options = list(lengthChange = FALSE)
+    output$tbl = DT::renderDataTable(
+      pkgs, options = list(lengthChange = FALSE, paging=FALSE)
     )
 
     observeEvent(input$done, {
@@ -29,6 +29,6 @@ selectDataset <- function() {
   }
 
   # run app
-  runGadget(ui, server, viewer = dialogViewer("Dataset Selector"))
+  runGadget(ui, server, viewer = dialogViewer("Dataset Select"))
 
 }
