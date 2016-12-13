@@ -1,0 +1,4 @@
+Name: Select Dataset
+Description: Select one or several datasets from all installed packages
+Binding: selectDataset
+Interactive: true
