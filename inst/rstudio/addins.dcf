@@ -1,4 +1,4 @@
 Name: Dataset Select
 Description: Select one or several datasets from all installed packages
-Binding: selectDataset
+Binding: datasets.load
 Interactive: true

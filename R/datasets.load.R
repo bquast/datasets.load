@@ -1,9 +1,9 @@
-#' Select a Dataset
-#' @name selectDataset
+#' Load Datasets from a Menu
+#' @name datasets.load
 #' @import shiny miniUI
 #' @export
 
-selectDataset <- function() {
+datasets.load <- function() {
 
   # ui
   ui <- miniPage(
