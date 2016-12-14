@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=dl_bYlDLydI
 
 Installation
 ------------
-You can install the latest **stable** version from [CRAN](http://cran.r-project.org/package=datasets.load).
+You can install the latest **stable** version from [CRAN](https://cran.r-project.org/package=datasets.load).
 
 ```r
 install.packages("datasets.load")
