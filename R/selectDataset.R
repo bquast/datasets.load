@@ -1,6 +1,6 @@
 #' Select a Dataset
 #' @name selectDataset
-#' @import shiny miniUI DT
+#' @import shiny miniUI
 #' @export
 
 selectDataset <- function() {
@@ -23,7 +23,9 @@ selectDataset <- function() {
     )
 
     observeEvent(input$done, {
-      stopApp( data() )
+      names <- pkgs[input$tbl_rows_selected, 2]
+      packages <- pkgs[input$tbl_rows_selected, 1]
+      stopApp( data(list=names, package=packages )  )
     })
 
   }
