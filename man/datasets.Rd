@@ -19,4 +19,9 @@ datasets(package = NULL, lib.loc = NULL, all = TRUE,
 \description{
 View datasets from all installed package
 }
+\examples{
+# write data.frame of datasets to object
+dtsts <- datasets()
+
+}
 
