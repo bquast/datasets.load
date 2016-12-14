@@ -5,17 +5,28 @@
 
 ## R CMD check results
 
-checking R code for possible problems ... NOTE
+* checking for code which exercises the package ... WARNING
+No examples, no tests, no vignettes
+* DONE
+Status: 1 WARNING, 2 NOTEs
+R CMD check succeeded
+
+The package includes only utilities, examples are not insighful.
+
+Possibly mis-spelled words in DESCRIPTION:
+  Datasets (2:30)
+  RStudio (5:55)
+  datasets (5:43)
+  
+I use the spelling datasets instead of data sets, it is also the package name.]
+RStudio is the name of the IDE (a product).
+
 print.datasets: no visible global function definition for 'View'
 Undefined global functions or variables:
   View
 Consider adding
   importFrom("utils", "View")
 to your NAMESPACE file.
-R CMD check results
-0 errors | 0 warnings | 1 note 
-
-R CMD check succeeded
 
 I intentionally do not import View from utils, so that RStudio can override this function.
 
