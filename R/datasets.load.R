@@ -7,7 +7,7 @@ datasets.load <- function() {
 
   # ui
   ui <- miniPage(
-    gadgetTitleBar('Dataset Select'),
+    miniTitleBar('Select Datasets', right=miniTitleBarButton('done', 'Load', primary = TRUE)),
     miniContentPanel(
       DT::dataTableOutput('tbl')
     )
@@ -31,6 +31,6 @@ datasets.load <- function() {
   }
 
   # run app
-  runGadget(ui, server, viewer = dialogViewer("Dataset Select"))
+  runGadget(ui, server, viewer = dialogViewer("Datasets Load"))
 
 }
