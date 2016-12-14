@@ -7,6 +7,13 @@ datasets.load
 
 Visual interface for loading datasets in RStudio from all installed (unloaded) packages.
 
+Demonstration
+---------------
+A demonstration is available on YouTube:
+
+https://www.youtube.com/watch?v=dl_bYlDLydI
+
+
 Installation
 ------------
 You can install the latest **stable** version from [CRAN](http://cran.r-project.org/package=datasets.load).
