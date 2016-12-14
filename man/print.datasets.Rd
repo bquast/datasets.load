@@ -4,7 +4,7 @@
 \alias{print.datasets}
 \title{Print function for datasets class objects}
 \usage{
-\method{print}{datasets}(datasets)
+\method{print}{datasets}(x, ...)
 }
 \description{
 Print function for datasets class objects

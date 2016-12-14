@@ -1,5 +1,6 @@
 #' List datasets in an HTML Browser
 #' @name browseDatasets
+#' @importFrom utils browseURL
 #' @export
 
 browseDatasets <- function(package=NULL, lib.loc=NULL, all=TRUE, drop.defaults=FALSE) {
@@ -78,9 +79,9 @@ print.browseDatasets <- function(x, ...)
   ## browseURL(URLencode(sprintf("file://%s", file)))
   ## browseURL(URLencode(file))
   if (port > 0L)
-    browseURL(sprintf("http://127.0.0.1:%d/session/%s", port, basename(file)))
+    utils::browseURL(sprintf("http://127.0.0.1:%d/session/%s", port, basename(file)))
   else
-    browseURL(sprintf("file://%s", file))
+    utils::browseURL(sprintf("file://%s", file))
   ## browseURL(file)
   invisible(x)
 }

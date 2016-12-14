@@ -1,6 +1,7 @@
 #' Load Datasets from a Menu
 #' @name datasets.load
 #' @import shiny miniUI
+#' @importFrom utils data
 #' @export
 
 datasets.load <- function() {
@@ -25,7 +26,7 @@ datasets.load <- function() {
     observeEvent(input$done, {
       names <- pkgs[input$tbl_rows_selected, 2]
       packages <- pkgs[input$tbl_rows_selected, 1]
-      stopApp( data(list=names, package=packages )  )
+      stopApp( utils::data(list=names, package=packages )  )
     })
 
   }
