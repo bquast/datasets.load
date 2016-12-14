@@ -1,8 +1,9 @@
 #' Print function for datasets class objects
 #' @name print.datasets
-#' @importFrom utils View
+#' @param x an object used to select a method.
+#' @param ... further arguments passed to or from other methods.
 #' @export
 
 print.datasets <- function(x, ...) {
-  utils::View(x, title='datasets')
+  View(x, title='datasets')
 }

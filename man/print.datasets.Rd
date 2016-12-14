@@ -6,6 +6,11 @@
 \usage{
 \method{print}{datasets}(x, ...)
 }
+\arguments{
+\item{x}{an object used to select a method.}
+
+\item{...}{further arguments passed to or from other methods.}
+}
 \description{
 Print function for datasets class objects
 }

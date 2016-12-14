@@ -6,6 +6,11 @@
 \usage{
 \method{print}{browseDatasets}(x, ...)
 }
+\arguments{
+\item{x}{Object of class datasets}
+
+\item{...}{Further arguments, ignored by the print method.}
+}
 \description{
 Print function for browseDatasets objects
 }
