@@ -20,7 +20,7 @@ datasets.load <- function() {
     pkgs <- datasets()
 
     output$tbl = DT::renderDataTable(
-      pkgs, options = list(lengthChange = FALSE, paging=FALSE)
+      pkgs, options = list(lengthChange = FALSE, paging=FALSE, autoWidth = TRUE)
     )
 
     observeEvent(input$done, {
