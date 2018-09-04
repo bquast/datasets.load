@@ -1,6 +1,6 @@
 ## Test environments
-* local Windows 7 install, R 3.3.2
-* local Linux (Arch) install, R 3.3.2
+* local Windows 10 install, R 3.5.1
+* local Linux (Arch) install, R 3.5.1
 * win-builder (devel and release)
 
 ## R CMD check results
@@ -17,8 +17,6 @@ Possibly mis-spelled words in DESCRIPTION:
 I use the spelling datasets instead of data sets, it is also the package name.]
 RStudio is the name of the IDE (a product).
 
-I have included URLs that do not exist yet, but will exist once the package is accepted.
-
 ## Reverse dependencies
 
-This is a new release, so there are no reverse dependencies.
+There are no reverse dependencies.
