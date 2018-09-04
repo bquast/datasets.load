@@ -19,4 +19,3 @@ printDatasets(package = NULL, lib.loc = NULL, all = TRUE,
 \description{
 Print datasets in the console
 }
-

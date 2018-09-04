@@ -19,4 +19,3 @@ browseDatasets(package = NULL, lib.loc = NULL, all = TRUE,
 \description{
 List datasets in an HTML Browser
 }
-

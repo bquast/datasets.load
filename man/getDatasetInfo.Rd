@@ -19,4 +19,3 @@ getDatasetInfo(package = NULL, lib.loc = NULL, all = TRUE,
 \description{
 Get information on installed datasets.
 }
-

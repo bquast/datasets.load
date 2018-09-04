@@ -24,4 +24,3 @@ View datasets from all installed package
 dtsts <- datasets()
 
 }
-

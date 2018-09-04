@@ -19,4 +19,3 @@ promptDatasets(package = NULL, lib.loc = NULL, all = TRUE,
 \description{
 Prompt for dataset in the console
 }
-

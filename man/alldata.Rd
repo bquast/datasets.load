@@ -19,4 +19,3 @@ alldata(package = NULL, lib.loc = NULL, all = TRUE,
 \description{
 List all datasets
 }
-
