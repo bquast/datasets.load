@@ -1,7 +1,7 @@
 ## Test environments
-* local Windows 10 install, R 3.6.1
-* local Linux (Arch) install, R 3.6.1
-* win-builder (devel and release)
+* local Windows 10 install, R 3.6.2
+* local Linux (Arch) install, R 3.6.2
+* win-builder devel
 
 ## R CMD check results
 
