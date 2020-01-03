@@ -4,8 +4,12 @@
 \alias{promptDatasets}
 \title{Prompt for dataset in the console}
 \usage{
-promptDatasets(package = NULL, lib.loc = NULL, all = TRUE,
-  drop.defaults = FALSE)
+promptDatasets(
+  package = NULL,
+  lib.loc = NULL,
+  all = TRUE,
+  drop.defaults = FALSE
+)
 }
 \arguments{
 \item{package}{a character vector with the names of packages to search through, or NULL in which "all" packages (as defined by argument all) are searched.}

@@ -4,8 +4,12 @@
 \alias{printDatasets}
 \title{Print datasets in the console}
 \usage{
-printDatasets(package = NULL, lib.loc = NULL, all = TRUE,
-  drop.defaults = FALSE)
+printDatasets(
+  package = NULL,
+  lib.loc = NULL,
+  all = TRUE,
+  drop.defaults = FALSE
+)
 }
 \arguments{
 \item{package}{a character vector with the names of packages to search through, or NULL in which "all" packages (as defined by argument all) are searched.}

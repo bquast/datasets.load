@@ -4,8 +4,7 @@
 \alias{datasets}
 \title{View datasets from all installed package}
 \usage{
-datasets(package = NULL, lib.loc = NULL, all = TRUE,
-  drop.defaults = FALSE)
+datasets(package = NULL, lib.loc = NULL, all = TRUE, drop.defaults = FALSE)
 }
 \arguments{
 \item{package}{a character vector with the names of packages to search through, or NULL in which "all" packages (as defined by argument all) are searched.}
