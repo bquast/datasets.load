@@ -3,9 +3,11 @@
 * local Linux (Arch) install, R 3.6.2
 * win-builder devel
 
-## R CMD check results
+── R CMD check results ──────────────────────────────── datasets.load 1.1.0 ────
+Duration: 17.1s
 
-* DONE
+0 errors ✓ | 0 warnings ✓ | 0 notes ✓
+
 R CMD check succeeded
 
 ## Reverse dependencies
