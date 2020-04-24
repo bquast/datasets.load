@@ -20,7 +20,7 @@ You can install the latest **stable** version from [CRAN](https://cran.r-project
 install.packages("datasets.load")
 ```
 
-The **development** version, to be used **at your peril**, can be installed from [GitHub](http://github.com/bquast/datasets.load) using the `devtools` package.
+The **development** version, to be used **at your peril**, can be installed from [GitHub](https://github.com/bquast/datasets.load) using the `devtools` package.
 
 ```r
 if (!require('devtools')) install.packages('devtools')
