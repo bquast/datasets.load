@@ -23,8 +23,8 @@ install.packages("datasets.load")
 The **development** version, to be used **at your peril**, can be installed from [GitHub](https://github.com/bquast/datasets.load) using the `devtools` package.
 
 ```r
-if (!require('devtools')) install.packages('devtools')
-devtools::install_github("bquast/datasets.load")
+if (!require('remotes')) install.packages('remotes')
+remotes::install_github("bquast/datasets.load")
 ```
 
 Development
