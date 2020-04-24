@@ -9,7 +9,7 @@ Visual interface for loading datasets in RStudio from all installed (unloaded) p
 
 Demonstration
 ---------------
-![datasets.load GUI demonstration](https://github.com/bquast/blob/master/datasets.load.gif)
+![datasets.load GUI demonstration](https://github.com/bquast/R-demo-GIFs/blob/master/datasets.load.gif)
 
 
 Installation
