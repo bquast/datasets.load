@@ -5,7 +5,7 @@ datasets.load
 [![Total RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/grand-total/datasets.load?color=brightgreen)](https://cran.r-project.org/package=datasets.load)
 [![Monthly RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/datasets.load?color=brightgreen)](https://cran.r-project.org/package=datasets.load)
 
-Visual interface for loading datasets in RStudio from all installed (unloaded) packages.
+Visual interface for loading datasets in RStudio from all installed (including unloaded) packages.
 
 Demonstration
 ---------------
