@@ -1,6 +1,6 @@
 Package: datasets.load
 Title: Interfaces for Loading Datasets
-Version: 1.2.0.9000
+Version: 1.3.0
 Authors@R: person("Bastiaan", "quast", email = "bquast@gmail.com", role = c("aut", "cre"))
 Description: Visual interface for loading datasets in RStudio from all installed (including unloaded) packages, also includes command line interfaces.
 Depends:
