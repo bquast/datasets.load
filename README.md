@@ -31,7 +31,7 @@ Development
 -------------
 Development takes place on the GitHub page.
 
-http://github.com/bquast/datasets.load
+https://github.com/bquast/datasets.load
 
 Bugs can be filed on the issues page on GitHub.
 
