@@ -9,6 +9,7 @@ datasets.load 1.3.0
 datasets.load 1.2.0
 =======================
 
+* switch from server to local
 * redo documentation
 
 
