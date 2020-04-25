@@ -1,3 +1,10 @@
+datasets.load 1.4.0
+=======================
+
+* switch to GitHub Actions
+* test using R 4.0.0
+
+
 datasets.load 1.3.0
 =======================
 
