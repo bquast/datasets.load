@@ -10,13 +10,13 @@
    - devel
    - release
 
+## win builder
 
-── R CMD check results ──────────────────────────────── datasets.load 1.2.0 ────
-Duration: 15.6s
+* using log directory 'd:/RCompile/CRANguest/R-release/datasets.load.Rcheck'
+* using R version 4.0.0 (2020-04-24)
 
-0 errors ✓ | 0 warnings ✓ | 0 notes ✓
-
-R CMD check succeeded
+* checking CRAN incoming feasibility ... Note_to_CRAN_maintainers
+Maintainer: 'Bastiaan quast <bquast@gmail.com>'
 
 * DONE
 Status: OK
