@@ -2,7 +2,7 @@
 % Please edit documentation in R/datasets.R
 \name{datasets}
 \alias{datasets}
-\title{View datasets from all installed package}
+\title{View datasets from all installed packages}
 \usage{
 datasets(package = NULL, lib.loc = NULL, all = TRUE, drop.defaults = FALSE)
 }
@@ -16,7 +16,7 @@ datasets(package = NULL, lib.loc = NULL, all = TRUE, drop.defaults = FALSE)
 \item{drop.defaults}{logical; if TRUE, do not include the datasets from the datasets package.}
 }
 \description{
-View datasets from all installed package
+View datasets from all installed packages
 }
 \examples{
 # write data.frame of datasets to object

@@ -1,4 +1,4 @@
-#' View datasets from all installed package
+#' View datasets from all installed packages
 #' @name datasets
 #' @param package a character vector with the names of packages to search through, or NULL in which "all" packages (as defined by argument all) are searched.
 #' @param lib.loc a character vector of directory names of R libraries, or NULL. The default value of NULL corresponds to all libraries currently known.
