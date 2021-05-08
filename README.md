@@ -19,14 +19,14 @@ Installation
 You can install the latest **stable** version from [CRAN](https://cran.r-project.org/package=datasets.load).
 
 ```r
-install.packages("datasets.load")
+install.packages('datasets.load')
 ```
 
 The **development** version, to be used **at your peril**, can be installed from [GitHub](https://github.com/bquast/datasets.load) using the `devtools` package.
 
 ```r
 if (!require('remotes')) install.packages('remotes')
-remotes::install_github("bquast/datasets.load")
+remotes::install_github('bquast/datasets.load')
 ```
 
 Development
