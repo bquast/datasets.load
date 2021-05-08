@@ -1,27 +1,23 @@
-## Test environments
-
-- local Windows 10 install, R 4.0.0
-- local Linux (Arch) install, R 4.0.0
-- local MacOS install, R 4.0.0
+# Test environments
+- local Windows 10 install, R 4.0.5
+- local Linux (Arch) install, R 4.0.5
+- local MacOS install, R 4.0.5
 - GitHub Actions
-   - Windows Server 2019 (10.0.17763), R 4.0.0
-   - MacOS (10.15), R 4.0.0 & devel
-   - Ubuntu (16.04), R 4.0.0
+   - Windows Server, R release
+   - MacOS, R release
+   - MacOS, R dev
+   - Ubuntu, R release
 - win-builder
    - devel
    - release
 
-## win builder
-
+# win builder
 * using log directory 'd:/RCompile/CRANguest/R-release/datasets.load.Rcheck'
 * using R version 4.0.0 (2020-04-24)
-
 * checking CRAN incoming feasibility ... Note_to_CRAN_maintainers
 Maintainer: 'Bastiaan quast <bquast@gmail.com>'
-
 * DONE
 Status: OK
 
-## Reverse dependencies
-
+# Reverse dependencies
 There are no reverse dependencies.
