@@ -13,7 +13,7 @@
 
 # win builder
 * using log directory 'd:/RCompile/CRANguest/R-release/datasets.load.Rcheck'
-* using R version 4.0.0 (2020-04-24)
+* using R version 4.0.5 (2021-03-31)
 * checking CRAN incoming feasibility ... Note_to_CRAN_maintainers
 Maintainer: 'Bastiaan quast <bquast@gmail.com>'
 * DONE
