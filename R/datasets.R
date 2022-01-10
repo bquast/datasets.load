@@ -5,10 +5,6 @@
 #' @param all logical; if TRUE search all available packages in the library trees specified by lib.loc, and if FALSE, search only attached packages.
 #' @param drop.defaults logical; if TRUE, do not include the datasets from the datasets package.
 #' @export
-#' @examples
-#' # write data.frame of datasets to object
-#' dtsts <- datasets()
-#'
 
 datasets <- function(package = NULL, lib.loc = NULL, all=TRUE, drop.defaults=FALSE) {
   package <- getDatasetInfo(package, lib.loc, all, drop.defaults)

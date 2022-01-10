@@ -18,8 +18,3 @@ datasets(package = NULL, lib.loc = NULL, all = TRUE, drop.defaults = FALSE)
 \description{
 View datasets from all installed packages
 }
-\examples{
-# write data.frame of datasets to object
-dtsts <- datasets()
-
-}
