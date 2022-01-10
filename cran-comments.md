@@ -1,7 +1,7 @@
 # Test environments
-- local Windows 10 install, R 4.0.5
-- local Linux (Arch) install, R 4.0.5
-- local MacOS install, R 4.0.5
+- local Windows 10 install, R 4.1.2
+- local Linux (Arch) install, R 4.1.2
+- local MacOS install, R 4.1.2
 - GitHub Actions
    - Windows Server, R release
    - MacOS, R release
@@ -13,7 +13,7 @@
 
 # win builder
 * using log directory 'd:/RCompile/CRANguest/R-release/datasets.load.Rcheck'
-* using R version 4.0.5 (2021-03-31)
+* using R version 4.1.2 (2022-01-10)
 * checking CRAN incoming feasibility ... Note_to_CRAN_maintainers
 Maintainer: 'Bastiaan quast <bquast@gmail.com>'
 * DONE
