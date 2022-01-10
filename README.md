@@ -3,7 +3,7 @@ datasets.load
 [![License](http://img.shields.io/badge/license-GPLv3-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-3.0.html)
 [![CRAN Version](http://www.r-pkg.org/badges/version/datasets.load)](https://cran.r-project.org/package=datasets.load)
 [![R build status](https://github.com/bquast/datasets.load/workflows/R-CMD-check/badge.svg)](https://github.com/bquast/datasets.load/actions?workflow=R-CMD-check)
-[![Coverage status](https://codecov.io/gh/bquast/datasets.load/branch/master/graph/badge.svg)](https://codecov.io/gh/bquast/datasets.load?branch=master)
+[![Coverage status](https://codecov.io/gh/bquast/datasets.load/branch/master/graph/badge.svg)](https://app.codecov.io/gh/bquast/datasets.load?branch=master)
 [![Total RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/grand-total/datasets.load?color=brightgreen)](https://cran.r-project.org/package=datasets.load)
 [![Monthly RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/datasets.load?color=brightgreen)](https://cran.r-project.org/package=datasets.load)
 
