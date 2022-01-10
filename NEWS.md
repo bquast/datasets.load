@@ -1,3 +1,7 @@
+datasets.load 2.0.0
+=======================
+* renew documentation
+
 datasets.load 1.6.0
 =======================
 * various small fixes
