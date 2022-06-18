@@ -1,6 +1,6 @@
 # Test environments
-- local Windows 10 install, R 4.1.2
-- local Linux (Arch) install, R 4.1.2
+- local Windows 10 install, R 4.2.0
+- local Linux (Arch) install, R 4.2.0
 - local MacOS install, R 4.1.2
 - GitHub Actions
    - Windows Server, R release
@@ -11,13 +11,12 @@
    - devel
    - release
 
-# win builder
-* using log directory 'd:/RCompile/CRANguest/R-release/datasets.load.Rcheck'
-* using R version 4.1.2 (2022-01-10)
-* checking CRAN incoming feasibility ... Note_to_CRAN_maintainers
-Maintainer: 'Bastiaan quast <bquast@gmail.com>'
-* DONE
-Status: OK
+── R CMD check results ───────────────────────────────────────────────────────────────────────── datasets.load 2.1.0 ────
+Duration: 24.7s
+
+0 errors ✔ | 0 warnings ✔ | 0 notes ✔
+
+R CMD check succeeded
 
 # Reverse dependencies
 There are no reverse dependencies.
