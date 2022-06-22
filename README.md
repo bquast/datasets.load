@@ -22,7 +22,7 @@ You can install the latest **stable** version from [CRAN](https://cran.r-project
 install.packages('datasets.load')
 ```
 
-The **development** version, to be used **at your peril**, can be installed from [GitHub](https://github.com/bquast/datasets.load) using the `devtools` package.
+The **development** version, to be used **at your peril**, can be installed from [GitHub](https://github.com/bquast/datasets.load) using the [remotes](https://cran.r-project.org/package=remotes) package.
 
 ```r
 if (!require('remotes')) install.packages('remotes')
