@@ -33,8 +33,8 @@ Development
 -------------
 Development takes place on the GitHub page.
 
-https://github.com/bquast/datasets.load
+<https://github.com/bquast/datasets.load>
 
 Bugs can be filed on the issues page on GitHub.
 
-https://github.com/bquast/datasets.load/issues
+<https://github.com/bquast/datasets.load/issues>
