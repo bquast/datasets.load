@@ -1,7 +1,7 @@
 # Test environments
-- local Windows 10 install, R 4.2.0
-- local Linux (Arch) install, R 4.2.0
-- local MacOS install, R 4.1.2
+- local Windows 10 install, R 4.2.3
+- local Linux (Arch) install, R 4.2.3
+- local MacOS install, R 4.2.3
 - GitHub Actions
    - Windows Server, R release
    - MacOS, R release
