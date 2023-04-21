@@ -1,3 +1,12 @@
+datasets.load 2.2.0
+=======================
+* minor bug fix, shiny API corner case change
+* update documentation
+
+datasets.load 2.1.0
+=======================
+* update documentation
+
 datasets.load 2.0.0
 =======================
 * update documentation
